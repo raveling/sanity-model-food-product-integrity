@@ -1,1 +1,8 @@
 node_modules
+config
+plugins
+static
+package.json
+sanity.json
+tsconfig.json
+yarn.lock
