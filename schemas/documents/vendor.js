@@ -34,7 +34,7 @@ export default {
       fields: [
         {title: 'Country', name: 'country', type: 'string'},
         {title: 'State', name: 'state', type: 'string'},
-        {title: 'City/Town', name: 'city', type: 'string'},
+        {title: 'City/Region', name: 'city', type: 'string'},
       ]
     }
   ]

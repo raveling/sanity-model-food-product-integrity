@@ -25,12 +25,21 @@ export default {
       to: [{type: 'vendor'}],
     },
     {
-      title: 'Nutritional Info',
+      title: 'Nutritional Data',
       name: 'nutritionData',
       type: 'array',
       of: [{
         type: 'nutritionItem'
       }]
     },
+    {
+      title: 'Certifications',
+      name: 'certifications',
+      type: 'array',
+      of: [{
+        type: 'reference',
+        to: [{type: 'certification'}]
+      }]
+    }
   ]
 }

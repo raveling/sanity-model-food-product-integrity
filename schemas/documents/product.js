@@ -58,7 +58,8 @@ export default {
       of: [{
         type: 'reference',
         to: [{type: 'classification'}]
-      }]
+      }],
+      description: 'Presence of allergens, meat, dairy, etc.',
     },
     {
       title: 'Awards',
@@ -67,7 +68,8 @@ export default {
       of: [{
         type: 'reference',
         to: [{type: 'award'}]
-      }]
+      }],
+      description: 'Gold medal, blue ribbons, press article, honorable mentions, etc',
     },
   ]
 }

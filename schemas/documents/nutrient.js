@@ -14,19 +14,6 @@ export default {
       type: 'text',
     },
     {
-      title: 'Unit of Measure',
-      name: 'unitOfMeasure',
-      type: 'string',
-      options: {
-        list: [
-          {title: 'Gram (g)', value: 'g'},
-          {title: 'Milligram (mg)', value: 'mg'},
-          {title: 'Microgram (µg)', value: 'µg'},
-          {title: 'Kilojoule (kj)', value: 'kj'}
-        ]
-      }
-    },
-    {
       title: 'Type',
       name: 'type',
       type: 'string',
@@ -37,6 +24,24 @@ export default {
           {title: 'Sugar', value: 'sugar'},
           {title: 'Vitamin', value: 'vitamin'},
           {title: 'Mineral', value: 'mineral'}
+        ]
+      }
+    },
+    {
+      title: 'Description Source',
+      name: 'descriptionSource',
+      type: 'url',
+    },
+    {
+      title: 'Unit of Measure',
+      name: 'unitOfMeasure',
+      type: 'string',
+      options: {
+        list: [
+          {title: 'Gram (g)', value: 'g'},
+          {title: 'Milligram (mg)', value: 'mg'},
+          {title: 'Microgram (µg)', value: 'µg'},
+          {title: 'Kilojoule (kj)', value: 'kj'}
         ]
       }
     }
