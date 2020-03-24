@@ -1,0 +1,36 @@
+export default {
+  title: 'Ingredient',
+  name: 'ingredient',
+  type: 'document',
+  fields: [
+    {
+      title: 'Name',
+      name: 'name',
+      type: 'string',
+    },
+    {
+      title: 'Description',
+      name: 'description',
+      type: 'text',
+    },
+    {
+      title: 'Image',
+      name: 'image',
+      type: 'image',
+    },
+    {
+      title: 'Vendor',
+      name: 'vendor',
+      type: 'reference',
+      to: [{type: 'vendor'}],
+    },
+    {
+      title: 'Nutritional Info',
+      name: 'nutritionData',
+      type: 'array',
+      of: [{
+        type: 'nutritionItem'
+      }]
+    },
+  ]
+}
