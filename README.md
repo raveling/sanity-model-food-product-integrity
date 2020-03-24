@@ -35,8 +35,11 @@ To use this schema as a starter, [create a new Sanity project](https://www.sanit
 
 ## Notes
 
-- **This is not a production-ready model**. It lacks details that can only be informed by real-world business logic.
+- **This is not a production-ready model**. It lacks essential detail that can only be informed by real-world business needs.
 - It doesn't contain provision for rich text or block content. That could be added.
-- No field validation included
-- No customisations have been applied to Structure Builder, Preview, etc. Roll your own.
+- No customisations have been applied to:
+  - Structure Builder
+  - Previews
+  - Field validation
+
 
