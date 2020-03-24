@@ -42,4 +42,12 @@ To use this schema as a starter, [create a new Sanity project](https://www.sanit
   - Previews
   - Field validation
 
+## Model
+
+![Sanity Desk](food-integrity.png)
+
+## Sanity Desk
+
+![Sanity Desk](sanity-desk.png)
+
 
